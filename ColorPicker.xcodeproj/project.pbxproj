@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4086EB0924DBC38500395661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EB0824DBC38500395661 /* AppDelegate.swift */; };
 		4086EB0B24DBC38500395661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EB0A24DBC38500395661 /* SceneDelegate.swift */; };
 		4086EB0D24DBC38500395661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EB0C24DBC38500395661 /* ContentView.swift */; };
-		4086EB0F24DBC38A00395661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4086EB0E24DBC38A00395661 /* Assets.xcassets */; };
 		4086EB1224DBC38A00395661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4086EB1124DBC38A00395661 /* Preview Assets.xcassets */; };
-		4086EB1524DBC38A00395661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4086EB1324DBC38A00395661 /* LaunchScreen.storyboard */; };
+		4086EB1E24DBC3B700395661 /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 4086EB1D24DBC3B700395661 /* Neumorphic */; };
+		4086EB2324DBC41900395661 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EB2124DBC41900395661 /* ColorPickerView.swift */; };
+		4086EB2424DBC41900395661 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EB2224DBC41900395661 /* SliderView.swift */; };
+		4086EB2624DBC47C00395661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4086EB2524DBC47C00395661 /* LaunchScreen.storyboard */; };
+		4086EB2824DBC49500395661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4086EB2724DBC49500395661 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,12 @@
 		4086EB0824DBC38500395661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4086EB0A24DBC38500395661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4086EB0C24DBC38500395661 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4086EB0E24DBC38A00395661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4086EB1124DBC38A00395661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4086EB1424DBC38A00395661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4086EB1624DBC38A00395661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4086EB2124DBC41900395661 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		4086EB2224DBC41900395661 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		4086EB2524DBC47C00395661 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4086EB2724DBC49500395661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4086EB1E24DBC3B700395661 /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,11 +62,11 @@
 		4086EB0724DBC38500395661 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				4086EB0824DBC38500395661 /* AppDelegate.swift */,
-				4086EB0A24DBC38500395661 /* SceneDelegate.swift */,
+				4086EB1F24DBC3D400395661 /* Delegates */,
 				4086EB0C24DBC38500395661 /* ContentView.swift */,
-				4086EB0E24DBC38A00395661 /* Assets.xcassets */,
-				4086EB1324DBC38A00395661 /* LaunchScreen.storyboard */,
+				4086EB2024DBC41900395661 /* View */,
+				4086EB2724DBC49500395661 /* Assets.xcassets */,
+				4086EB2524DBC47C00395661 /* LaunchScreen.storyboard */,
 				4086EB1624DBC38A00395661 /* Info.plist */,
 				4086EB1024DBC38A00395661 /* Preview Content */,
 			);
@@ -73,6 +79,24 @@
 				4086EB1124DBC38A00395661 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4086EB1F24DBC3D400395661 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4086EB0824DBC38500395661 /* AppDelegate.swift */,
+				4086EB0A24DBC38500395661 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4086EB2024DBC41900395661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4086EB2124DBC41900395661 /* ColorPickerView.swift */,
+				4086EB2224DBC41900395661 /* SliderView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +115,9 @@
 			dependencies = (
 			);
 			name = ColorPicker;
+			packageProductDependencies = (
+				4086EB1D24DBC3B700395661 /* Neumorphic */,
+			);
 			productName = ColorPicker;
 			productReference = 4086EB0524DBC38500395661 /* ColorPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 4086EAFC24DBC38500395661;
+			packageReferences = (
+				4086EB1C24DBC3B700395661 /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
 			productRefGroup = 4086EB0624DBC38500395661 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,9 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4086EB1524DBC38A00395661 /* LaunchScreen.storyboard in Resources */,
+				4086EB2624DBC47C00395661 /* LaunchScreen.storyboard in Resources */,
 				4086EB1224DBC38A00395661 /* Preview Assets.xcassets in Resources */,
-				4086EB0F24DBC38A00395661 /* Assets.xcassets in Resources */,
+				4086EB2824DBC49500395661 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4086EB2324DBC41900395661 /* ColorPickerView.swift in Sources */,
 				4086EB0924DBC38500395661 /* AppDelegate.swift in Sources */,
 				4086EB0B24DBC38500395661 /* SceneDelegate.swift in Sources */,
 				4086EB0D24DBC38500395661 /* ContentView.swift in Sources */,
+				4086EB2424DBC41900395661 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4086EB1324DBC38A00395661 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4086EB1424DBC38A00395661 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4086EB1724DBC38A00395661 /* Debug */ = {
@@ -342,6 +363,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4086EB1C24DBC3B700395661 /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4086EB1D24DBC3B700395661 /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4086EB1C24DBC3B700395661 /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4086EAFD24DBC38500395661 /* Project object */;
 }
