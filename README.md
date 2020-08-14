@@ -2,4 +2,4 @@
 A simple Color Picker using SwiftUI
 
 # Screenshot
-<img src="Screenshots/screenshot.gif" width="250" height="512" />
+<img src="Screenshots/screenshot.png" width="250" height="541" />
